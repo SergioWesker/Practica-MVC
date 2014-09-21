@@ -1,0 +1,35 @@
+<html class="no-js" lang="es">
+	<head>
+	</head>
+	<body>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<section class="min_width_section">
+						<table id="alumno_calificaciones" class="table-bordered table">
+							<thead>
+								<tr>
+									<th>Numero de identificacion</th>
+									<th>Kilometraje recorrido</th>
+									<th>Combustible</th>
+									<th>Estado del vehiculo</th>
+									<th>Ubicacion del vehiculo</th>
+								</tr>	
+							</thead>
+							<tr>
+								<td><input type="text" id="VIN" name="id" value="<?php echo $VIN; ?>"></td>
+								<td><input type="text" id="KM" name="km" value="<?php echo $KM; ?>"></td>
+								<td><input type="text" id="Combustible" name="Combustible" value="<?php echo $Combustible; ?>"></td>
+								<td><input type="text" id="Golpes" name="Golpes" value="<?php echo $Golpes; ?>"></td>
+								<td><input type="text" id="Ubicacion" name="Ubicacion" value="<?php echo $Ubicacion; ?>"></td>
+							</tr>
+							<br>
+						</table>
+						<a href="http://localhost/vehiculos.php?controlador=vehiculos&accion=alta"><button>Regresar</button></a> 
+					</section>
+				</div>
+			</div>
+			<footer class="footer">
+			</footer>			
+		</div>
+	</body>
+</html>
