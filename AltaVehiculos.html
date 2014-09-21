@@ -1,0 +1,43 @@
+<html class="no-js" lang="es">
+	<head>
+		
+	</head>
+	<body>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<section>
+						<div id="alta_simple">
+							<form id="formulario_registro" action="vehiculos.php?controlador=vehiculos&accion=alta" method="POST">
+								<h2>Registro Vehiculo</h2>
+								<label for="VIN">VIN</label>
+								<input type="text" id="VIN" name="VIN" required/>
+								<label for="KM">KM</label>
+								<input type="text" id="KM" name="KM" required/>
+								<label for="Combustible">Combustible</label> 
+								<input type="text" id="Combustible" name="Combustible" required/>
+								<label for="Golpes">Estado del vehiculo</label>
+								<input type="text" id="Golpes" name="Golpes" required/>
+								<label for="Ubicacion">Ubicacion</label>
+								<select id="Ubicacion" name="Ubicacion" required>
+									<option value="0" disabled selected>Selecciona Ubicacion</option>
+									<option value ="A1">A1</option>
+									<option value ="A2">A2</option>
+									<option value ="A3">A3</option>
+									<option value ="B1">B1</option>
+									<option value ="B2">B2</option>
+									<option value ="B3">B3</option>
+									<option value ="C1">C1</option>
+									<option value ="C2">C2</option>
+									<option value ="C3">C3</option>
+								</select>
+								<button type="submit">Alta</button>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+			<footer class="footer">
+			</footer>	
+		</div>
+	</body>
+</html>	
